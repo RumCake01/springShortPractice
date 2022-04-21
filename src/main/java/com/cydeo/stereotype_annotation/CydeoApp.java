@@ -15,7 +15,7 @@ public class CydeoApp {
 //        selenium.getTeachingHours();  this is failing because we did not provide @Component for this class since we dont want to create bean from that class
 
         FullTimeMentor ft = container.getBean(FullTimeMentor.class);
-        ft.createAccount(); // we are able to create beans from classes that are outise of this project because provide basePackages in annotation in our config class
+        ft.createAccount(); // we are able to create beans from classes that are outside of this project because provide basePackages in annotation in our config class
 
 
 
